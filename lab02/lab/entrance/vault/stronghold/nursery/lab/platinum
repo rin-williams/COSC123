@@ -1,0 +1,14 @@
+#!/bin/bash
+if ! grep  --quiet --only-matching platinum <<< $I; then
+    cat << eof
+You have found a sack full of *platinum* coins!  Add it to
+your inventory.
+
+eof
+else
+    cat << eof
+This treasure has already been taken.
+
+eof
+
+fi

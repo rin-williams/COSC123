@@ -1,0 +1,12 @@
+#!/bin/bash
+if ! grep  --quiet --only-matching emerald <<< $I; then
+    cat << eof
+You have found an *emerald*!  Add it to your inventory.
+
+eof
+else
+    cat << eof
+This treasure has already been taken.
+
+eof
+fi

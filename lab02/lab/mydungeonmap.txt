@@ -1,0 +1,57 @@
+.
+├── README.md
+├── Task1.md
+├── Task2.md
+├── entrance
+│   ├── cellar
+│   │   ├── armoury
+│   │   │   ├── chamber
+│   │   │   │   ├── chamber -> /chamber
+│   │   │   │   ├── pieces
+│   │   │   │   ├── scroll
+│   │   │   │   ├── spell
+│   │   │   │   └── treasure
+│   │   │   ├── potion
+│   │   │   ├── scroll
+│   │   │   └── treasure
+│   │   ├── scroll
+│   │   └── treasure
+│   ├── chapel
+│   │   ├── altar
+│   │   ├── courtyard
+│   │   │   ├── aviary
+│   │   │   │   ├── crystal
+│   │   │   │   ├── hall
+│   │   │   │   │   ├── carcass
+│   │   │   │   │   ├── library
+│   │   │   │   │   │   ├── scroll
+│   │   │   │   │   │   └── tome
+│   │   │   │   │   └── treasure
+│   │   │   │   ├── penguin
+│   │   │   │   └── scroll
+│   │   │   ├── fountain
+│   │   │   ├── rags
+│   │   │   └── scroll
+│   │   └── scroll
+│   ├── scrap
+│   ├── scroll
+│   └── vault
+│       ├── glass
+│       ├── scroll
+│       └── stronghold
+│           ├── goblet
+│           ├── nursery
+│           │   ├── lab
+│           │   │   ├── ghost
+│           │   │   ├── platinum
+│           │   │   ├── scroll
+│           │   │   └── treasure
+│           │   ├── scroll
+│           │   └── spell
+│           ├── orb1
+│           ├── orb2
+│           ├── orb3
+│           └── scroll
+└── mydungeonmap.txt
+
+14 directories, 41 files

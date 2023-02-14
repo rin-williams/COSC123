@@ -1,0 +1,254 @@
+ 1333  cd armoury
+ 1334  ls
+ 1335  ls -F
+ 1336  ls
+ 1337  cat scroll
+ 1338  ./treasure
+ 1339  sudo ./treasure
+ 1340  ls
+ 1341  ./treasure
+ 1342  _./treasure
+ 1343  _ 
+ 1344  _ ./treasure
+ 1345  ls
+ 1346  alias _
+ 1347  ls
+ 1348  clear
+ 1349  ls
+ 1350  ./treasure
+ 1351* ls
+ 1352* cd cosc123
+ 1353* ls
+ 1354* git clone https://github.com/ubco-W2022T2-cosc123/lab03-rin-williams.git
+ 1355  ls
+ 1356  ./treasure
+ 1357  chmod 775 ./treasure
+ 1358  ./treasure
+ 1359  export I=sword,$I
+ 1360  echo I
+ 1361  echo $I
+ 1362  ls
+ 1363  ./potion
+ 1364  chmod 775 ./potion
+ 1365  ./potion
+ 1366  export HP=15
+ 1367  echo $HP
+ 1368  ls
+ 1369  alias chmod 775='cm'
+ 1370  alias cm
+ 1371  alias chmod 775
+ 1372  unalias 775
+ 1373  alias cm='chmod 775'
+ 1374  alias
+ 1375  alias cm
+ 1376  ls
+ 1377  cd chamber
+ 1378  ls
+ 1379  list
+ 1380  cat scroll
+ 1381  pwd
+ 1382  ls
+ 1383  cat scroll
+ 1384  cat statue
+ 1385  cm ./statue
+ 1386  ./statue
+ 1387  ls
+ 1388  ./treasure
+ 1389  cm ./treasure
+ 1390  ./treasure
+ 1391  export I=diamonds,$I
+ 1392  echo $I
+ 1393  ls
+ 1394  cm ./pieces
+ 1395  ./pieces
+ 1396  ./spell
+ 1397  cm ./spell
+ 1398  ./spell
+ 1399  ls
+ 1400  ln -help
+ 1401  ln -fs
+ 1402  pwd
+ 1403  ln -fs /chamber
+ 1404  ls
+ 1405  o
+ 1406  ls
+ 1407  back
+ 1408  b
+ 1409  ls
+ 1410  l
+ 1411  ls
+ 1412  cd chamber
+ 1413  ls
+ 1414  cat chamber@
+ 1415  cd chamber@
+ 1416  cd chamber
+ 1417  cat chamber
+ 1418  ls
+ 1419  cd
+ 1420  ls
+ 1421  cd cosc123
+ 1422  ls
+ 1423  cd lab02-rin-williams
+ 1424  ls
+ 1425  cd lab
+ 1426  ls
+ 1427  cd entrance
+ 1428  echo $I
+ 1429  ls
+ 1430  cd chapel
+ 1431  ls
+ 1432  cat altar
+ 1433  ls
+ 1434  ls -F
+ 1435  cm ./altar
+ 1436  cat scroll
+ 1437  ./altar
+ 1438  ls
+ 1439  b
+ 1440  ls
+ 1441  cd valut
+ 1442  cd vault
+ 1443  ls
+ 1444  cm ./glass
+ 1445  ./glass
+ 1446  cat scroll
+ 1447  ls
+ 1448  cd stronghold
+ 1449  ls
+ 1450  cat scroll
+ 1451  cm ./orb1
+ 1452  ./orb1
+ 1453  cat orb1
+ 1454  ls
+ 1455  ./orb1
+ 1456  ./goblet
+ 1457  cm ./goblet
+ 1458  ./goblet
+ 1459  ls
+ 1460  cp orb1
+ 1461  cp ./orb1
+ 1462  cp orb 1 orb 2
+ 1463  cp orb1 orb2
+ 1464  ls
+ 1465  cp orb1 orb2 orb3
+ 1466  ls
+ 1467  cp orb1 orb3
+ 1468  ls
+ 1469  ./goblet
+ 1470  export I=goblet,$I
+ 1471  $i
+ 1472  $I
+ 1473  echo $I
+ 1474  I
+ 1475  $I
+ 1476  ls
+ 1477  cd nursery
+ 1478  ls
+ 1479  cat scroll
+ 1480  cm ./spell
+ 1481  ./spell
+ 1482  find . -name "potion"
+ 1483  ls
+ 1484  cd lab
+ 1485  ls
+ 1486  cat scroll
+ 1487  cm ./ghost
+ 1488  ./ghost
+ 1489  ls
+ 1490  cm ./platinum
+ 1491  ./platinum
+ 1492  cm ./treasure
+ 1493  ./treasure
+ 1494  export I=platinum,$I
+ 1495  export I=emerald,$I
+ 1496  $I
+ 1497  ls
+ 1498  b
+ 1499  ls
+ 1500  b
+ 1501  ls
+ 1502  b
+ 1503  ls
+ 1504  cm ./glass
+ 1505  ./glass
+ 1506  b
+ 1507  ls
+ 1508  cd chapel
+ 1509  ls
+ 1510  b
+ 1511  ls
+ 1512  find . -name "potion"
+ 1513  cd ./cellar/armoury/potion
+ 1514  cd cellar
+ 1515  cd armoury
+ 1516  ls
+ 1517  cm ./potion
+ 1518  ./potion
+ 1519  ls
+ 1520  b
+ 1521  ls
+ 1522  b
+ 1523  ls
+ 1524  cd chapel
+ 1525  ls
+ 1526  cd courtyard
+ 1527  ls
+ 1528  cat scroll
+ 1529  cm ./fountain
+ 1530  ls
+ 1531  ./fountain
+ 1532  cm ./rags
+ 1533  ./rags
+ 1534  export I=rags,fish,$I
+ 1535  ls
+ 1536  $I
+ 1537  ls
+ 1538  cd aviary
+ 1539  ls
+ 1540  cat scroll
+ 1541  ls
+ 1542  cm .penguin
+ 1543  cm ./penguin
+ 1544  ./penguin
+ 1545  export I=$(sed "s/fish//; s/,,/,/" <<< $I)
+ 1546  ls
+ 1547  cm ./crystal
+ 1548  ls
+ 1549  ./crystal
+ 1550  export I=crystal,$I
+ 1551  ls
+ 1552  cd hall
+ 1553  ls
+ 1554  cd h
+ 1555  ls
+ 1556  cm ./monster
+ 1557  ./monster
+ 1558  ls
+ 1559  ./treasure
+ 1560  export I=crown,$I
+ 1561  ./carcass
+ 1562  cd library
+ 1563  ls
+ 1564  cat scroll
+ 1565  cm ./tome
+ 1566  ./tome
+ 1567  ls
+ 1568  b
+ 1569  ls
+ 1570  b
+ 1571  ls
+ 1572  b
+ 1573  ls
+ 1574  b
+ 1575  git add .
+ 1576  git commit -m "Finished playing with the dungeon"
+ 1577  git push
+ 1578  tree
+ 1579  ls
+ 1580  b
+ 1581  ls
+ 1582  git add .
+ 1583  tree > mydungeonmap.txt
+ 1584  git add .
+ 1585  git commit -m "Added my dungeon map"
+ 1586  git push

@@ -1,0 +1,11 @@
+#!/bin/bash
+if ! grep  --quiet --only-matching crown <<< $I; then
+    cat << eof
+You have found a **crown**!  Add it to your inventory.
+
+eof
+
+else
+    echo "This treasure has already been taken."
+fi 
+
