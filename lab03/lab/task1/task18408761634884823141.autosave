@@ -1,0 +1,95 @@
+// specs
+/**
+- The sketch must be meaningful and non-trivial - 
+in Task 2 you will be implementing it using Processing, 
+so don't go overboard!
+- Some element of creativity and sophistication.
+- Add a screenshot of your drawing to the screenshots directory.
+**/
+
+
+void setup(){
+  size(400,400);
+  
+}
+void draw(){
+  
+  
+  //background(#191970);
+  colorMode(RGB,255,255,255);
+  background(25,25,112);
+  
+  noStroke();
+  
+  colorMode(HSB,360,100,100);
+  //sun aura
+  //fill(#E3DEE7, 100);
+  fill(272,3,89,25);
+  circle(277,337,250);
+  fill(#E3DEE7, 50);
+  circle(277,337,150);
+  
+  
+  //sun
+  fill(#E3DEE7);
+  circle(277,337,100);
+  
+  
+  
+   
+  
+  //mountains
+  fill(#C0C0C0);
+  quad(-5,350, -5,196, 15,135, 42,200);
+  quad(15,135, 42,200, 71,314, 38,338);
+  
+
+  quad(20,240, 48,179, 71,107, 97,166);
+  quad(71,107, 97,166, 142,291, 78,356);
+  quad(97,166, 142,291, 78,356, -5,350);
+  quad(48,180, 0,300, 0,350, 96,192);
+  
+  quad(150,108, 229,241, 250,350, 56,345);
+  
+  
+  quad(400,130, 320,147, 300,155, 309,350);
+  quad(309,350, 400,350, 400,130, 340,169);
+  
+  
+  
+  //snow
+  fill(#fffafa);
+  quad(-5,196, 15,135, 42,200, 29,187);
+  quad(26,196, 16,185, 9,196, 2,182);
+  
+  quad(48,179, 71,107, 97,166, 82,159);
+  
+  
+  //land
+  fill(#2F4F4F);
+  quad(-5,350, 38,347, 38,405, -5,405);
+  quad(38,347, 78,329, 78,405, 38,405);
+  quad(78,329, 132,315, 132,405, 78,405);
+  quad(132,315, 194,313, 194,405, 132, 405);
+  quad(194,313, 235,321, 235,405, 194,405);
+  quad(235,321, 262,329, 262,405, 235,405);
+  quad(262,329, 295,333, 295,405, 262,405);
+  quad(295,333, 348,323, 348,405, 295,405);
+  quad(348,323, 380,327, 380,405, 348,405);
+  quad(380,327, 405,327, 405,405, 380,405);
+  
+  
+  //clouds
+  fill(#808080);
+  ellipse(23,15,115,75);
+  ellipse(103,12,115,75);
+  ellipse(150,11,115,75);
+  ellipse(218,12,115,75);
+  ellipse(271,18,115,75);
+  ellipse(359,21,115,75);
+  
+  textSize(15);
+  fill(#ffffff);
+  text("mouseX: "+mouseX, 15,15);
+  text("mouseY: "+mouseY, 15,30);
+}
